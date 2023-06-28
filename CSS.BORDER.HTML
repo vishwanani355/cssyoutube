@@ -1,0 +1,246 @@
+<!DOCTYPE html>  
+<html>  
+  
+<head>  
+<title> CSS border-radius </title>  
+<style>  
+div {  
+padding: 50px;  
+margin: 20px;  
+border: 6px ridge red;  
+width: 300px;  
+float: left;  
+height: 150px;  
+}  
+p{  
+font-size: 25px;  
+}  
+#one {  
+border-radius: 90px;  
+background: lightgreen;  
+}  
+#two {  
+border-radius: 25% 10%;  
+background: orange;  
+}  
+#three {  
+border-radius: 35px 10em 10%;  
+background: cyan;  
+}  
+#four {  
+border-radius: 50px 50% 50cm 50em;  
+background: lightblue;  
+}  
+  
+</style>  
+</head>  
+  
+<body>  
+<div id = "one">  
+<h2> Welcome to the javaTpoint.com </h2>  
+<p> border-radius: 90px; </p>  
+</div>  
+<div id = "two">  
+<h2> Welcome to the javaTpoint.com </h2>  
+<p> border-radius: 25% 10%; </p>  
+</div>  
+<div id = "three">  
+<h2> Welcome to the javaTpoint.com </h2>  
+<p> border-radius: 35px 10em 10%; </p>  
+</div>  
+<div id = "four">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-radius: 50px 50% 50cm 50em;</p>  
+</div>  
+</body>  
+</html>  
+Output
+
+Test it Now CSS border-radius property
+Now, let's see the border-radius for specific corners.
+
+Example- border-top-left-radius
+It sets the border radius for the top-left corner.
+
+<!DOCTYPE html>  
+<html>  
+  
+<head>  
+<title> CSS border-radius </title>  
+<style>  
+#left {  
+border-top-left-radius: 250px;  
+background: lightgreen;  
+padding: 50px;  
+border: 6px ridge red;  
+width: 300px;  
+height: 200px;  
+font-size: 25px;  
+}  
+</style>  
+</head>  
+  
+<body>  
+<center>  
+<div id = "left">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-top-left-radius: 250px;</p>  
+</div>  
+</center>  
+</body>  
+</html>  
+Output
+
+Test it Now CSS border-radius property
+Example- border-top-right-radius
+It sets the border-radius for the top-right corner.
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+#left {  
+border-top-right-radius: 50%;  
+background: lightgreen;  
+padding: 50px;  
+border: 6px ridge red;  
+width: 300px;  
+height: 200px;  
+font-size: 25px;  
+}  
+</style>  
+</head>  
+  
+<body>  
+<center>  
+<div id = "left">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-top-right-radius: 50%;</p>  
+</div>  
+</center>  
+</body>  
+</html>  
+Output
+
+Test it Now CSS border-radius property
+Example- border-bottom-right-radius
+It sets the border-radius for the bottom-right corner.
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+#left {  
+border-bottom-right-radius: 50%;  
+background: lightgreen;  
+padding: 50px;  
+border: 6px ridge red;  
+width: 300px;  
+height: 200px;  
+font-size: 25px;  
+}  
+</style>  
+</head>  
+  
+<body>  
+<center>  
+<div id = "left">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-bottom-right-radius: 50%;</p>  
+</div>  
+</center>  
+</body>  
+</html>  
+Output
+
+Test it Now CSS border-radius property
+Example- border-bottom-left-radius
+It sets the border-radius for the bottom-left corner.
+
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+#left {  
+border-bottom-left-radius: 50%;  
+background: lightgreen;  
+padding: 50px;  
+border: 6px ridge red;  
+width: 300px;  
+height: 200px;  
+font-size: 25px;  
+}  
+</style>  
+</head>  
+  
+<body>  
+<center>  
+<div id = "left">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-bottom-left-radius: 50%;</p>  
+</div>  
+</center>  
+</body>  
+</html>  
+Output
+
+Test it Now CSS border-radius property
+We can specify separate horizontal and vertical values by using the slash (/) symbol. The values before the slash (/) is used for the horizontal radius and the values after the slash (/) are for the vertical radius.
+
+There is an example given below using the slash (/) symbol.
+
+Example
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+div{  
+padding: 50px;  
+border: 6px ridge red;  
+width: 300px;  
+margin: 20px;  
+font-weight: bold;  
+height: 175px;  
+float: left;  
+font-size: 25px;  
+}  
+#one {  
+border-radius: 10% / 50%;  
+background: lightgreen;  
+}  
+#two {  
+border-radius: 120px / 100px 10px;  
+background: lightblue;  
+}  
+#three {  
+border-radius: 50% 10em / 10% 20em;  
+background: lightpink;  
+}  
+#four {  
+border-radius: 100px 10em 120px / 30%;  
+background: cyan;  
+}  
+</style>  
+</head>  
+  
+<body>  
+<center>  
+<div id = "one">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-radius: 10% / 50%; </p>  
+</div>  
+<div id = "two">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-radius: 120px / 100px 10px; </p>  
+</div>  
+<div id = "three">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-radius: 50% 10em / 10% 20em; </p>  
+</div>  
+<div id = "four">  
+<h2>Welcome to the javaTpoint.com</h2>  
+<p>border-radius: 100px 10em 120px / 30%; </p>  
+</div>  
+</center>  
+</body>  
+</html>  
